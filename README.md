@@ -63,7 +63,7 @@ I am currently developing hands-on projects in **MRI and 3D medical image analys
 
 - **PhD, Biomedical Imaging** — University of Technology Sydney, Australia (2022–2026)
 - **Master of Medicine, Clinical Pathology** — Sichuan University / West China Hospital, China (2015–2018)
-- **Bachelor of Medicine** — Xinjiang Medical University, China (2009–2014)
+- **Bachelor of Medicine**  (2009–2014)
 
 ## Connect
 
