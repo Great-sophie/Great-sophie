@@ -17,9 +17,7 @@ I develop and evaluate methods that link histopathological morphology, image rep
 **Published**
 
 **[PathScaleBench: A Multidimensional Benchmark of Cross-Scale Representation Behavior and Magnification-Shift Robustness in Pathology Foundation Models](https://doi.org/10.1007/s10278-026-02354-8)**  
-*Journal of Imaging Informatics in Medicine* · Published online **October 2026** · [DOI](https://doi.org/10.1007/s10278-026-02354-8) · [Code](https://github.com/Great-sophie/PathScaleBench)
-
-**Under review**
+*Journal of Imaging Informatics in Medicine* · Published online **October 2026** · [DOI](https://doi.org/10.1007/s10278-026-02354-8) · 
 
 **Resolution and Tissue Context Across Eight Pathology Foundation Models: A Controlled Field-of-View Study**  
 *Computers in Biology and Medicine* · **Under Review**
