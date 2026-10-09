@@ -78,7 +78,7 @@ Exploratory analysis of **preoperative and postoperative structural–functional
 
 - **PhD in Biomedical Imaging** — University of Technology Sydney, Australia (2022–2026)
 - **Master of Medicine in Clinical Pathology** — Sichuan University / West China Hospital, China (2015–2018)
-- **Bachelor of Medicine** — Xinjiang Medical University, China (2009–2014)
+- **Bachelor of Medicine**
 
 ## Connect
 
