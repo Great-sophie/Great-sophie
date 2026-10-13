@@ -1,88 +1,89 @@
 # Fei Su, PhD
 
-**Computational Pathology & Spatial Biology | MRI & Neuroimaging Analysis**
+**Experimental & Computational Biomedical Scientist**  
+**Molecular Imaging · Computational Pathology · Spatial Biology · MRI & Neuroimaging**
 
-Medical- and pathology-trained researcher with a PhD in Biomedical Imaging from the **University of Technology Sydney (UTS)**. My research combines quantitative biomedical imaging, machine learning, and rigorous evaluation to study tissue structure, molecular heterogeneity, and brain imaging. My work is organized into **two complementary research directions**.
+I am a biomedical imaging researcher with a background in **medicine and clinical pathology** and doctoral training in Biomedical Imaging at the **University of Technology Sydney (UTS)**. My research connects experimental molecular imaging, quantitative microscopy, computational pathology, and neuroimaging analysis.
+
+My work is organized into three complementary research collections:
+
+[**01 · Experimental & Molecular Imaging**](#01--experimental--molecular-imaging) · [**02 · Computational Pathology & Spatial Biology**](#02--computational-pathology--spatial-biology) · [**03 · MRI & Neuroimaging Analysis**](#03--mri--neuroimaging-analysis)
 
 ---
 
-## 01 · Computational Pathology
+## 01 · Experimental & Molecular Imaging
 
-**Whole-slide imaging · Pathology foundation models · Tissue context · Spatial biology · Evidence-grounded AI**
+**Lanthanide probes · Immunohistochemistry · HER2 smFISH · Upconversion nanoparticles · Organelle imaging**
 
-I develop and evaluate methods that link histopathological morphology, image representations, and molecular or spatial information, with particular attention to resolution, tissue context, and reproducibility.
+This collection highlights experiments and subsequent computational analysis, spanning molecular probe development, microscopy, cell imaging, and quantitative assessment. It contains **two published *Analytical Chemistry* studies with post-publication computational extensions** and two research projects developed from experimental thesis/manuscript work.
 
-### Publications & manuscripts
+| Research project | Experimental and computational focus | Research link |
+| --- | --- | --- |
+| **[Lanthanide IHC — Computational Imaging Analysis](https://github.com/Great-sophie/Lanthanide-IHC-Computational-Imaging-Analysis)** | Eu/Cy3 immunohistochemistry, CK18-associated signal maps, and audits of historical image contrast measurements | [*Analytical Chemistry* (2022)](https://doi.org/10.1021/acs.analchem.2c04058) |
+| **[Lanthanide smFISH — Computational Analysis](https://github.com/Great-sophie/Lanthanide-smFISH-Computational-Analysis)** | HER2 mRNA-associated Eu imaging in breast-cancer cell lines; single-cell TrackMate candidate-spot quantification and detection-quality audits | [*Analytical Chemistry* (2024)](https://doi.org/10.1021/acs.analchem.3c04530) |
+| **[Spatiotemporal Organelle Interactions](https://github.com/Great-sophie/Spatiotemporal-Organelle-Interactions)** | Biomimetic UCNP trafficking, intracellular localization, organelle proximity, and spatial analysis | PhD thesis / experimental figures |
+| **[Organelle Thermal Signatures](https://github.com/Great-sophie/Organelle-Thermal-Signatures)** | Organelle-targeted UCNP ratiometric thermometry and quantitative microscopy in breast-cancer models | Research manuscript / experimental figures |
 
-**Published**
+> **Scientific provenance:** IHC and smFISH Python workflows are **post-publication exploratory extensions**, not methods claimed to have been included in the original articles. Selected UCNP figures document thesis/manuscript experiments and are not necessarily reproduced by running the public scripts. RGB-rendered fluorescence maps are not calibrated protein or transcript abundance measurements.
+
+---
+
+## 02 · Computational Pathology & Spatial Biology
+
+**Whole-slide imaging · Pathology foundation models · Histological scale · Spatial omics · Evidence-grounded analysis**
+
+I investigate how tissue context and histological resolution affect pretrained pathology image representations, and how quantitative histology can be related to molecular and spatial data through reproducible analysis.
+
+### Selected publication
 
 **[PathScaleBench: A Multidimensional Benchmark of Cross-Scale Representation Behavior and Magnification-Shift Robustness in Pathology Foundation Models](https://doi.org/10.1007/s10278-026-02354-8)**  
-*Journal of Imaging Informatics in Medicine* · Published online **October 2026** · [DOI](https://doi.org/10.1007/s10278-026-02354-8) · 
+*Journal of Imaging Informatics in Medicine* (2026) · [Code](https://github.com/Great-sophie/PathScaleBench)
 
-**Resolution and Tissue Context Across Eight Pathology Foundation Models: A Controlled Field-of-View Study**  
-*Computers in Biology and Medicine* · **Under Review**
-
-### Research projects
+### Projects
 
 | Repository | Focus |
 | --- | --- |
-| **[PathScaleBench](https://github.com/Great-sophie/PathScaleBench)** | Cross-scale representation behavior and robustness to histological magnification shift. |
-| **[PathBioAgent](https://github.com/Great-sophie/PathBioAgent)** | Research prototype for evidence-driven morphology–molecular reasoning and analysis. |
-| **[Spatial Omics–Histology Transfer](https://github.com/Great-sophie/spatial-omics-histology-transfer)** | Histology features, spatial transcriptomics, and graph-based modeling. |
-| **[Histology Nuclei Segmentation](https://github.com/Great-sophie/histology-nuclei-segmentation)** | H&E nuclei segmentation with case-level splitting and held-out evaluation. |
-| **[Clinical AI Validation](https://github.com/Great-sophie/clinical-ai-validation)** | Model discrimination, calibration, external validation, and decision-curve evaluation. |
-| **[Multimodal Clinical AI](https://github.com/Great-sophie/multimodal-clinical-ai)** | Image and clinical-metadata fusion approaches. |
+| **[PathScaleBench](https://github.com/Great-sophie/PathScaleBench)** | Evaluation of eight pathology foundation models across histological magnifications; representation stability and shift robustness |
+| **[PathBioAgent](https://github.com/Great-sophie/PathBioAgent)** | Auditable evidence-driven workflows for morphology–molecular hypothesis analysis |
+| **[Spatial Omics–Histology Transfer](https://github.com/Great-sophie/spatial-omics-histology-transfer)** | Histology representations, spatial transcriptomics, and graph-based analysis |
+| **[Histology Nuclei Segmentation](https://github.com/Great-sophie/histology-nuclei-segmentation)** | H&E nuclei segmentation and held-out evaluation |
+| **[Clinical AI Validation](https://github.com/Great-sophie/clinical-ai-validation)** | Model discrimination, calibration, external validation, and decision-curve analysis workflows |
+| **[Multimodal Clinical AI](https://github.com/Great-sophie/multimodal-clinical-ai)** | Integration of medical images with structured clinical data |
 
-**Related experimental and molecular imaging:** [Organelle Thermal Signatures](https://github.com/Great-sophie/Organelle-Thermal-Signatures) · [Spatiotemporal Organelle Interactions](https://github.com/Great-sophie/Spatiotemporal-Organelle-Interactions) · [Single-Cell RNA-seq with Scanpy](https://github.com/Great-sophie/scanpy-single-cell-pbmc).
-
-**Methods and tools:** digital pathology, WSI, quantitative microscopy, PyTorch, Vision Transformers, pathology foundation models, spatial transcriptomics, Scanpy, Squidpy, graph neural networks, and molecular imaging.
+**Methods:** whole-slide imaging, digital pathology, PyTorch, computer vision, pathology foundation models, Scanpy, Squidpy, spatial transcriptomics, graph-based modeling, and quantitative validation.
 
 ---
 
-## 02 · MRI & Neuroimaging Analysis
+## 03 · MRI & Neuroimaging Analysis
 
-**Longitudinal 3D MRI · Self-supervised learning · Brain development · Connectomics · Quantitative analysis**
+**Longitudinal 3D MRI · Self-supervised representation learning · Brain development · Structural–functional connectomics**
 
-I investigate temporal representations in 3D MRI and longitudinal changes in structural–functional brain network organization. Both repositories are research studies rather than clinically validated diagnostic models.
+This collection addresses temporal representation learning and longitudinal brain-network analysis, using subject-level data splitting and reproducible statistical evaluation.
 
-### Manuscript
+| Repository | Research focus |
+| --- | --- |
+| **[TempoDINO — Longitudinal Brain MRI](https://github.com/Great-sophie/TempoDINO-Longitudinal-Brain-MRI)** | Self-supervised temporal representations from 114 longitudinal non-human-primate 3D T1 MRI scans across 23 subjects; subject-disjoint evaluation |
+| **[TumorConnectome — Brain Tumor Connectomics](https://github.com/Great-sophie/TumorConnectome)** | Exploratory pre/postoperative structural–functional connectivity analyses and associations with cognitive change in brain-tumor cohorts |
 
-**Temporally Structured Self-Distillation for Longitudinal 3D Brain MRI**  
-**ICASSP 2027 · Submitted** 
+**Methods:** NIfTI processing, 3D MRI preprocessing, PyTorch, self-distillation, longitudinal evaluation, connectivity matrices, subject-level splitting, permutation analysis, and bootstrap inference.
 
-### Research projects
-
-#### [TempoDINO — Longitudinal 3D Brain MRI](https://github.com/Great-sophie/TempoDINO-Longitudinal-Brain-MRI)
-
-Self-supervised developmental representation learning from **longitudinal non-human-primate T1-weighted 3D MRI**.
-
-- **Dataset:** 114 MRI scans from 23 subjects; five subject-disjoint evaluation folds.
-- **Approach:** 3D ResNet-18 student/EMA teacher, DINO self-distillation, temporal-ordering and relative-spacing objectives.
-- **Reported locked out-of-fold results:** within-subject ordering accuracy **95.58%**, cross-subject ordering accuracy **89.79%**; downstream age-probe MAE **3.235 months**.
-- **Limitations:** full independent training reproducibility and external generalization have not been established. Age prediction is a downstream probe, not the primary optimization target.
-
-#### [TumorConnectome — Brain Tumor Connectomics](https://github.com/Great-sophie/TumorConnectome)
-
-Exploratory analysis of **preoperative and postoperative structural–functional connectome coupling** and cognitive change using public BTC brain tumor datasets.
-
-- **Dataset:** 63 audited SC–FC session records (36 preoperative, 27 postoperative).
-- **Approach:** 68-region Desikan–Killiany SC–FC coupling, subject-level longitudinal changes, permutation and bootstrap inference.
-- **Exploratory finding:** among 16 patients with matched cognitive data, change in coupling correlated with sustained-attention change (Spearman **ρ ≈ −0.585**, unadjusted **p ≈ 0.019**).
-- **Limitations:** small sample, multiple-testing concerns, noncausal association; tumor-to-DK68 regional burden was not validated and is excluded from quantitative conclusions.
-
-**Methods and tools:** NIfTI imaging, 3D MRI preprocessing, image orientation/resampling, registration QC, brain connectivity matrices, Python, PyTorch, self-supervised representation learning, and subject-level statistical evaluation.
+> These are research studies and analytical workflows, **not clinically validated diagnostic tools**.
 
 ---
 
 ## Academic Background
 
-- **PhD in Biomedical Imaging** — University of Technology Sydney, Australia (2022–2026)
-- **Master of Medicine in Clinical Pathology**
-- **Bachelor of Medicine**
+- **PhD, Biomedical Imaging** — University of Technology Sydney, Australia (2022–2026)
+- **Master of Medicine, Clinical Pathology** — Sichuan University / West China Hospital, China
+- **Bachelor of Medicine, Forensic Medicine** — Xinjiang Medical University, China
 
-## Connect
+My combined experimental and computational experience includes molecular probes, immunostaining, fluorescence microscopy, smFISH, cancer models, image analysis, deep learning, and reproducible biomedical research.
 
-- **GitHub:** [Great-sophie](https://github.com/Great-sophie)
-- **Research interests:** computational pathology, biomedical imaging, MRI analysis, and spatial biology.
+## Research Interests & Connect
 
-*Publication and submission statuses are current as reported in October 2026. Project results are exploratory unless otherwise stated; no claim of clinical deployment or regulatory approval is made.*
+I am interested in interdisciplinary research across **molecular imaging, experimental and computational pathology, spatial biology, cancer biology, biomedical AI, and neuroimaging**.
+
+**GitHub:** [Great-sophie](https://github.com/Great-sophie)  
+**Selected publications:** [Lanthanide IHC (2022)](https://doi.org/10.1021/acs.analchem.2c04058) · [Lanthanide smFISH (2024)](https://doi.org/10.1021/acs.analchem.3c04530) · [PathScaleBench (2026)](https://doi.org/10.1007/s10278-026-02354-8)
+
+*Project scope, experimental provenance, and analysis limitations are documented in each repository. Research results should not be interpreted as clinical validation unless explicitly stated.*
