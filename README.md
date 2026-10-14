@@ -39,7 +39,7 @@ I investigate how tissue context and histological resolution affect pretrained p
 
 ## 02 · Experimental & Molecular Imaging
 
-**Lanthanide probes · Immunohistochemistry · HER2 smFISH · Upconversion nanoparticles · Organelle imaging**
+**Lanthanide probes · Immunohistochemistry · HER2 smFISH ·  Organelle imaging**
 
 This collection highlights experiments and subsequent computational analysis, spanning molecular probe development, microscopy, cell imaging, and quantitative assessment. It contains **two published *Analytical Chemistry* studies with post-publication computational extensions** and two research projects developed from experimental thesis/manuscript work.
 
@@ -47,8 +47,8 @@ This collection highlights experiments and subsequent computational analysis, sp
 | --- | --- | --- |
 | **[Lanthanide IHC — Computational Imaging Analysis](https://github.com/Great-sophie/Lanthanide-IHC-Computational-Imaging-Analysis)** | Eu/Cy3 immunohistochemistry, CK18-associated signal maps, and audits of historical image contrast measurements | [*Analytical Chemistry* (2022)](https://doi.org/10.1021/acs.analchem.2c04058) |
 | **[Lanthanide smFISH — Computational Analysis](https://github.com/Great-sophie/Lanthanide-smFISH-Computational-Analysis)** | HER2 mRNA-associated Eu imaging in breast-cancer cell lines; single-cell TrackMate candidate-spot quantification and detection-quality audits | [*Analytical Chemistry* (2024)](https://doi.org/10.1021/acs.analchem.3c04530) |
-| **[Spatiotemporal Organelle Interactions](https://github.com/Great-sophie/Spatiotemporal-Organelle-Interactions)** | Biomimetic UCNP trafficking, intracellular localization, organelle proximity, and spatial analysis | PhD thesis / experimental figures |
-| **[Organelle Thermal Signatures](https://github.com/Great-sophie/Organelle-Thermal-Signatures)** | Organelle-targeted UCNP ratiometric thermometry and quantitative microscopy in breast-cancer models | Research manuscript / experimental figures |
+| **[Spatiotemporal Organelle Interactions](https://github.com/Great-sophie/Spatiotemporal-Organelle-Interactions)** | Biomimetic particle trafficking, intracellular localization, organelle proximity, and spatial analysis | Research manuscript / experimental figures |
+| **[Organelle Thermal Signatures](https://github.com/Great-sophie/Organelle-Thermal-Signatures)** | Organelle-targeted particle ratiometric thermometry and quantitative microscopy in breast-cancer models | Research manuscript / experimental figures |
 
 > **Scientific provenance:** IHC and smFISH Python workflows are **post-publication exploratory extensions**, not methods claimed to have been included in the original articles. Selected UCNP figures document thesis/manuscript experiments and are not necessarily reproduced by running the public scripts. RGB-rendered fluorescence maps are not calibrated protein or transcript abundance measurements.
 
