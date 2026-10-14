@@ -1,34 +1,17 @@
 # Fei Su, PhD
 
 **Experimental & Computational Biomedical Scientist**  
-**Molecular Imaging · Computational Pathology · Spatial Biology · MRI & Neuroimaging**
+**Computational Pathology · Spatial Biology · Molecular Imaging · MRI & Neuroimaging**
 
 I am a biomedical imaging researcher with a background in **medicine and clinical pathology** and doctoral training in Biomedical Imaging at the **University of Technology Sydney (UTS)**. My research connects experimental molecular imaging, quantitative microscopy, computational pathology, and neuroimaging analysis.
 
 My work is organized into three complementary research collections:
 
-[**01 · Experimental & Molecular Imaging**](#01--experimental--molecular-imaging) · [**02 · Computational Pathology & Spatial Biology**](#02--computational-pathology--spatial-biology) · [**03 · MRI & Neuroimaging Analysis**](#03--mri--neuroimaging-analysis)
+[**01 · Computational Pathology & Spatial Biology**](#01--computational-pathology--spatial-biology) · [**02 · Experimental & Molecular Imaging**](#02--experimental--molecular-imaging) · [**03 · MRI & Neuroimaging Analysis**](#03--mri--neuroimaging-analysis)
 
 ---
 
-## 01 · Experimental & Molecular Imaging
-
-**Lanthanide probes · Immunohistochemistry · HER2 smFISH · Upconversion nanoparticles · Organelle imaging**
-
-This collection highlights experiments and subsequent computational analysis, spanning molecular probe development, microscopy, cell imaging, and quantitative assessment. It contains **two published *Analytical Chemistry* studies with post-publication computational extensions** and two research projects developed from experimental thesis/manuscript work.
-
-| Research project | Experimental and computational focus | Research link |
-| --- | --- | --- |
-| **[Lanthanide IHC — Computational Imaging Analysis](https://github.com/Great-sophie/Lanthanide-IHC-Computational-Imaging-Analysis)** | Eu/Cy3 immunohistochemistry, CK18-associated signal maps, and audits of historical image contrast measurements | [*Analytical Chemistry* (2022)](https://doi.org/10.1021/acs.analchem.2c04058) |
-| **[Lanthanide smFISH — Computational Analysis](https://github.com/Great-sophie/Lanthanide-smFISH-Computational-Analysis)** | HER2 mRNA-associated Eu imaging in breast-cancer cell lines; single-cell TrackMate candidate-spot quantification and detection-quality audits | [*Analytical Chemistry* (2024)](https://doi.org/10.1021/acs.analchem.3c04530) |
-| **[Spatiotemporal Organelle Interactions](https://github.com/Great-sophie/Spatiotemporal-Organelle-Interactions)** | Biomimetic UCNP trafficking, intracellular localization, organelle proximity, and spatial analysis | PhD thesis / experimental figures |
-| **[Organelle Thermal Signatures](https://github.com/Great-sophie/Organelle-Thermal-Signatures)** | Organelle-targeted UCNP ratiometric thermometry and quantitative microscopy in breast-cancer models | Research manuscript / experimental figures |
-
-> **Scientific provenance:** IHC and smFISH Python workflows are **post-publication exploratory extensions**, not methods claimed to have been included in the original articles. Selected UCNP figures document thesis/manuscript experiments and are not necessarily reproduced by running the public scripts. RGB-rendered fluorescence maps are not calibrated protein or transcript abundance measurements.
-
----
-
-## 02 · Computational Pathology & Spatial Biology
+## 01 · Computational Pathology & Spatial Biology
 
 **Whole-slide imaging · Pathology foundation models · Histological scale · Spatial omics · Evidence-grounded analysis**
 
@@ -51,6 +34,23 @@ I investigate how tissue context and histological resolution affect pretrained p
 | **[Multimodal Clinical AI](https://github.com/Great-sophie/multimodal-clinical-ai)** | Integration of medical images with structured clinical data |
 
 **Methods:** whole-slide imaging, digital pathology, PyTorch, computer vision, pathology foundation models, Scanpy, Squidpy, spatial transcriptomics, graph-based modeling, and quantitative validation.
+
+---
+
+## 02 · Experimental & Molecular Imaging
+
+**Lanthanide probes · Immunohistochemistry · HER2 smFISH · Upconversion nanoparticles · Organelle imaging**
+
+This collection highlights experiments and subsequent computational analysis, spanning molecular probe development, microscopy, cell imaging, and quantitative assessment. It contains **two published *Analytical Chemistry* studies with post-publication computational extensions** and two research projects developed from experimental thesis/manuscript work.
+
+| Research project | Experimental and computational focus | Research link |
+| --- | --- | --- |
+| **[Lanthanide IHC — Computational Imaging Analysis](https://github.com/Great-sophie/Lanthanide-IHC-Computational-Imaging-Analysis)** | Eu/Cy3 immunohistochemistry, CK18-associated signal maps, and audits of historical image contrast measurements | [*Analytical Chemistry* (2022)](https://doi.org/10.1021/acs.analchem.2c04058) |
+| **[Lanthanide smFISH — Computational Analysis](https://github.com/Great-sophie/Lanthanide-smFISH-Computational-Analysis)** | HER2 mRNA-associated Eu imaging in breast-cancer cell lines; single-cell TrackMate candidate-spot quantification and detection-quality audits | [*Analytical Chemistry* (2024)](https://doi.org/10.1021/acs.analchem.3c04530) |
+| **[Spatiotemporal Organelle Interactions](https://github.com/Great-sophie/Spatiotemporal-Organelle-Interactions)** | Biomimetic UCNP trafficking, intracellular localization, organelle proximity, and spatial analysis | PhD thesis / experimental figures |
+| **[Organelle Thermal Signatures](https://github.com/Great-sophie/Organelle-Thermal-Signatures)** | Organelle-targeted UCNP ratiometric thermometry and quantitative microscopy in breast-cancer models | Research manuscript / experimental figures |
+
+> **Scientific provenance:** IHC and smFISH Python workflows are **post-publication exploratory extensions**, not methods claimed to have been included in the original articles. Selected UCNP figures document thesis/manuscript experiments and are not necessarily reproduced by running the public scripts. RGB-rendered fluorescence maps are not calibrated protein or transcript abundance measurements.
 
 ---
 
