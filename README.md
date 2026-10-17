@@ -75,9 +75,9 @@ This collection addresses temporal representation learning and longitudinal brai
 
 - **PhD, Biomedical Imaging** — University of Technology Sydney, Australia (2022–2026)
 - **Master of Medicine, Clinical Pathology** — Sichuan University / West China Hospital, China
-- **Bachelor of Medicine, Forensic Medicine** 
+- **Bachelor of Medicine** 
 
-My combined experimental and computational experience includes molecular probes, immunostaining, fluorescence microscopy, smFISH, cancer models, image analysis, deep learning, and reproducible biomedical research.
+My combined experimental and computational experience includes molecular probes, immunostaining, fluorescence microscopy, smFISH, cancer models, image analysis, deep learning, and reproducible biomedical research
 
 ## Research Interests & Connect
 
